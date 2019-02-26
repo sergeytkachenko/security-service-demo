@@ -16,7 +16,7 @@ Nikolas - cloud - reader  - afd87e24-8b22-4635-889d-fc3125ac8f74
 ACCOUNTS:
   support
   cloud
-  rndgi add .
+  rnd
 
 
 RESOURCES:
