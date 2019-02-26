@@ -19,7 +19,7 @@ ACCOUNTS:
   rnd
 
 
-RESOURCES:
+RESOURCES FROM catalog service:
 {
 	"caption" : "R&D",
 	"id" : "2c568515-6a86-a7fb-3efd-cff97f7a759d",
