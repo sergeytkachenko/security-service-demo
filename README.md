@@ -16,7 +16,7 @@
 
 ### USERS:
 
-| User  | Accounts | Role | UserId |
+| User  | Accounts (security tag) | Role | UserId |
 | ------------- | ------------- | ------------- | ------------- |
 | Иван | cloud, rnd, support | reader | 59afc932-a9c1-42f3-b024-525079ccd104 |
 | Петр | cloud | writer | 46c75272-ec8d-4918-a445-358468d0ef95 |
