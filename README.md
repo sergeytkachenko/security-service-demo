@@ -1,22 +1,18 @@
 ### ROLES:
 
-Attempt | #1 | #2
---- | --- 
-Seconds | 301 | 283
-
-* reader - read
-* writer  - read, write
-
+| Role  | Operations |
+| ------------- | ------------- |
+| reader  | read  |
+| writer  | read, write  |
 
 ### USERS:
 
-* Иван - cloud, rnd, support - reader  - 59afc932-a9c1-42f3-b024-525079ccd104
-
-* Петр - cloud - writer  - 46c75272-ec8d-4918-a445-358468d0ef95
-* Петр - rnd - reader  -  46c75272-ec8d-4918-a445-358468d0ef95
-
-* Nikolas - cloud - reader  - afd87e24-8b22-4635-889d-fc3125ac8f74
-
+| User  | Accounts | Role | UserId |
+| ------------- | ------------- | ------------- | ------------- |
+| Иван | cloud, rnd, support | reader | 59afc932-a9c1-42f3-b024-525079ccd104 |
+| Петр | cloud | writer | 46c75272-ec8d-4918-a445-358468d0ef95 |
+| Петр | rnd | reader | 46c75272-ec8d-4918-a445-358468d0ef95 |
+| Nikolas | cloud | reader | afd87e24-8b22-4635-889d-fc3125ac8f74 |
 
 ### ACCOUNTS:
 
