@@ -43,5 +43,7 @@
 | Name  | HTTP method | user name | userId | body | account? | url |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Дай все документы для чтения | GET | Nikolas | afd87e24-8b22-4635-889d-fc3125ac8f74 | - | - | http://46.101.67.95/all?userId=afd87e24-8b22-4635-889d-fc3125ac8f74 |
-| Доступность документа, для записи | POST | Петр | 46c75272-ec8d-4918-a445-358468d0ef95 | {"data":{"caption":"my_process in cloud","account":"cloud"}} | cloud | http://46.101.67.95?userId=46c75272-ec8d-4918-a445-358468d0ef95&account=cloud |
-| Доступность документа, для записи | POST | Петр | 46c75272-ec8d-4918-a445-358468d0ef95 | {"data":{"caption":"my_process in rnd","account":"rnd"}} | rnd | http://46.101.67.95?userId=46c75272-ec8d-4918-a445-358468d0ef95&account=rnd |
+| Доступность документа, для чтения | GET | Nikolas | afd87e24-8b22-4635-889d-fc3125ac8f74 | - | rnd | http://46.101.67.95/1b2bd688-ce6c-fcd9-5d13-49c2db0cdda7?userId=afd87e24-8b22-4635-889d-fc3125ac8f74 |
+| Доступность документа, для чтения | GET | Nikolas | afd87e24-8b22-4635-889d-fc3125ac8f74 | - | cloud | http://46.101.67.95/ef8e43b2-7d8e-1714-2a73-2bc793312488?userId=afd87e24-8b22-4635-889d-fc3125ac8f74 |
+| Доступность типа ресурса, для записи | POST | Петр | 46c75272-ec8d-4918-a445-358468d0ef95 | {"data":{"caption":"my_process in cloud","account":"cloud"}} | cloud | http://46.101.67.95?userId=46c75272-ec8d-4918-a445-358468d0ef95&account=cloud |
+| Доступность типа ресурса, для записи | POST | Петр | 46c75272-ec8d-4918-a445-358468d0ef95 | {"data":{"caption":"my_process in rnd","account":"rnd"}} | rnd | http://46.101.67.95?userId=46c75272-ec8d-4918-a445-358468d0ef95&account=rnd |
