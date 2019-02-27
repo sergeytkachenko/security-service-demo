@@ -43,5 +43,5 @@
 | Name  | HTTP method | user name | userId | body | account? | url |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Дай все документы для чтения | GET | Nikolas | afd87e24-8b22-4635-889d-fc3125ac8f74 | - | - | http://46.101.67.95/all?userId=afd87e24-8b22-4635-889d-fc3125ac8f74 |
-| Доступность документа, для записи | GET | Петр | 46c75272-ec8d-4918-a445-358468d0ef95 | {"data":{"caption":"my_process in rnd","account":"cloud","parentId":"65ba63de-8ec4-4a40-a317-c11c172cb413"}} | cloud | http://46.101.67.95/?userId=46c75272-ec8d-4918-a445-358468d0ef95&securityTag=cloud |
-| Доступность документа, для записи | GET | Петр | 46c75272-ec8d-4918-a445-358468d0ef95 | - | - |  |
+| Доступность документа, для записи | POST | Петр | 46c75272-ec8d-4918-a445-358468d0ef95 | {"data":{"caption":"my_process in cloud","account":"cloud"}} | cloud | http://46.101.67.95?userId=46c75272-ec8d-4918-a445-358468d0ef95&account=cloud |
+| Доступность документа, для записи | POST | Петр | 46c75272-ec8d-4918-a445-358468d0ef95 | {"data":{"caption":"my_process in rnd","account":"rnd"}} | rnd | http://46.101.67.95?userId=46c75272-ec8d-4918-a445-358468d0ef95&account=rnd |
